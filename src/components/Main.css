@@ -1,0 +1,26 @@
+
+.box-secondary {
+    width: 100%;
+    height: 600px;
+    background: rgba(85, 106, 243, 0.707);
+    
+    
+    
+}
+ 
+ 
+ .box-main{
+     background-image: url("../image/laptop-gccaa35391_1920.jpg");
+     background-size: cover;
+     background-attachment:fixed;
+     width:100%; 
+     height:600px;
+     border:1px solid black;
+     
+    }
+   .title{
+       position: relative;
+       top:100px;
+       left: 100px;
+      z-index: ;
+    }

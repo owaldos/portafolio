@@ -1,6 +1,6 @@
 import React from 'react'
 import './Layout.css';
-import Navb from './Navb.jsx';
+import Navb2 from './Navb2.jsx';
 import Main from './Main.jsx';
 import Aside from './Aside.jsx';
 import Footer from './Footer.jsx';
@@ -8,16 +8,20 @@ const Layout = () => {
     return (
         <>
             <div className="">
-                <Navb/>
+                
+                <Navb2/>
             </div>
             <div className='container-fluid ' >
                 <div className='row'>
-                    <div className='col-sm-12 col-md-9 col-lg-8 '>
+                    <div className='col-12 p-0'>
                         <Main/>
+                         <Aside/>
+                         <Aside/> 
+                         <Aside/> 
+                         <Aside/> 
+
                     </div>
-                    <div className='col-sm-12 col-md-3 col-lg-4 '>
-                        <Aside/>
-                    </div>
+                   
                 </div>
             </div>
             <div className='container-fluid ' >
